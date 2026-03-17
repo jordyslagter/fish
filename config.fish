@@ -36,7 +36,11 @@ alias neofetch="fastfetch"
 
 # lets you write gradlew instead of ./gradlew
 function gradlew
-    "$PWD/gradlew" $argv
+    if test -f "$PWD/gradlew"
+        "$PWD/gradlew" $argv
+    else
+        echo "No gradlew file found in $PWD"
+    end
 end
 
 # ########## VERSION MANAGERS ##########
