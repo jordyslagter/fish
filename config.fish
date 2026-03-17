@@ -29,7 +29,10 @@ alias cat="bat"
 
 alias neofetch="fastfetch"
 
-alias gradlew="./gradlew"
+# lets you write gradlew instead of ./gradlew
+function gradlew
+    "$PWD/gradlew" $argv
+end
 
 # ########## VERSION MANAGERS ##########
 
