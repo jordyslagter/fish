@@ -27,6 +27,11 @@ alias lf="yazi"
 
 alias cat="bat"
 
+# make mkdir -p the default, if you need it without -p for some reason
+# use mkdirnp
+alias mkdir="mkdir -p"
+alias mkdirnp="mkdir"
+
 alias neofetch="fastfetch"
 
 # lets you write gradlew instead of ./gradlew
