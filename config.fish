@@ -25,7 +25,7 @@ alias vim="nvim"
 alias ranger="yazi"
 alias lf="yazi"
 
-alias cat="bat"
+alias cat="bat --theme=\"Catppuccin Mocha\""
 
 # make mkdir -p the default, if you need it without -p for some reason
 # use mkdirnp
