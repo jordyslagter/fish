@@ -43,6 +43,11 @@ function gradlew
     end
 end
 
+# ########## PACKAGES ##########
+
+# packages installed via dart pub global activate
+set -x PATH $HOME/.pub-cache/bin $PATH
+
 # ########## VERSION MANAGERS ##########
 
 set -x PATH (brew --prefix rustup)/bin $PATH
